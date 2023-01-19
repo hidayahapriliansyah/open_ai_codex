@@ -1,0 +1,16 @@
+mulai dengan
+
+    npm create vite@latest client --template vanilla
+
+kita bakal bikin semuanya vanilla js? WAAAAW
+
+cd client
+npm install
+
+download asset.zip
+copy style.css
+
+kita bikin script.js
+hapus main.js
+
+pasang icon nya
