@@ -14,7 +14,7 @@ function loader(element) {
   loadInterval = setInterval(() => {
     element.textContent += '.';
 
-    if(element.textContent === '...') {
+    if(element.textContent === '....') {
       element.textContent = '';
     }
   }, 300)
@@ -58,7 +58,7 @@ function chatStripe(isAi, value, uniqueId) {
 }
 
 const handleSubmit = async (e) => {
-  e.preventDefault;
+  e.preventDefault();
 
   const data = new FormData(form);
 
@@ -80,7 +80,7 @@ const handleSubmit = async (e) => {
 
 form.addEventListener('submit', handleSubmit);
 form.addEventListener('keyup', (e) => {
-  if(e.key = 13) {
+  if(e.keyCode === 13) {
     handleSubmit(e);
   }
 });
